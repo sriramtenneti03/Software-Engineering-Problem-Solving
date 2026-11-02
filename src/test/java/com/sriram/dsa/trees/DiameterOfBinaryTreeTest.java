@@ -1,0 +1,5 @@
+package com.sriram.dsa.trees;
+import com.sriram.dsa.model.TreeNode;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+class DiameterOfBinaryTreeTest { @Test void countsEdgesOnLongestPath() { assertEquals(3,DiameterOfBinaryTree.diameter(new TreeNode(1,new TreeNode(2,new TreeNode(4),new TreeNode(5)),new TreeNode(3)))); assertEquals(0,DiameterOfBinaryTree.diameter(null)); assertEquals(1,DiameterOfBinaryTree.diameter(new TreeNode(1,new TreeNode(2),null))); } }
